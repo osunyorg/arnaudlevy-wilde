@@ -1,0 +1,36 @@
+*
+  font-variant-ligatures: discretionary-ligatures
+
+body,
+header#document-header
+  background-image: url('/assets/images/dot.png')
+  background-repeat: repeat-y
+  background-position: center
+
+header#document-header
+    .primary-menu
+        > .container
+            justify-content: center
+.hero
+    .content
+        .hero-text
+            @include media-breakpoint-up(desktop)
+                padding-left: offset(2)
+                width: columns(10)
+main
+    text-align: center
+.projects__page
+    .hero
+        .project-infos
+            display: block
+            text-align: center
+            width: 100%
+.block-siblings-navigation
+    display: none
+
+footer#document-footer
+    .container
+        display: block
+        text-align: center
+        p
+            @include meta

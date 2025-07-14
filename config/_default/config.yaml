@@ -6,8 +6,22 @@ params:
   search:
     active: true
   logo:
-    header: ''
+    header: '/assets/images/aubrey-beardsley-tree.jpg'
     footer: ''
   home:
     head:
       title: site
+  breadcrumb:
+    position: none
+  projects:
+    index:
+      layout: grid
+      options:
+        categories: false
+        image: true
+        subtitle: false
+        summary: true
+        year: false
+      truncate_description: 0
+    share_links:
+      enabled: false

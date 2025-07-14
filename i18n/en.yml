@@ -1,0 +1,25 @@
+blocks:
+  projects:
+    title: Pearls
+categories:
+  no_project: No pearls in this category
+  type:
+    projects_categories: Pearls categories
+projects:
+  author: Author
+  authors: "Authors"
+  count:
+    one: "1 pearl"
+    other: "{{ .Count }} pearls"
+  informations: Informations
+  next: Next pearl
+  next_aria: Next pearl “{{ .Title }}”
+  none: No pearl
+  previous: Previous pearl
+  previous_aria: Previous pearl “{{ .Title }}”
+  reading_time: Reading time
+  see_all: See all pearls
+  see_all_in_program: See all program's pearls
+  see_all_in_category: See all pearls in “{{ .Title }}”
+  title: Pearls
+  year: Year
