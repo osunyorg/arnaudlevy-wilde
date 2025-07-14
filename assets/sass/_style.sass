@@ -22,6 +22,13 @@ header#document-header
 
 main
     text-align: center
+
+.projects--grid
+    .project
+        .project-description
+            div
+                margin-top: $spacing-2
+
 .projects__page
     .hero
         .project-infos
@@ -32,8 +39,15 @@ main
             margin-left: auto
             margin-right: auto
             @include meta
-    .taxonomies-container
-        display: none
+        .projects-taxonomies
+            width: 100%
+            justify-content: center
+            a
+                @include meta
+                font-weight: bold
+                text-transform: uppercase
+                letter-spacing: pxToRem(2)
+                text-decoration: none
 
 .projects--large
     .project
@@ -46,9 +60,17 @@ main
 
 .breadcrumb
     justify-content: center
+
 footer#document-footer
     .container
         display: block
         text-align: center
+        padding-bottom: 0
+        &::before
+            font-family: $font-salome
+            font-size: pxToRem(60)
+            content: '¶'
+            display: block
+            margin-bottom: pxToRem(128)
         p
             @include meta
