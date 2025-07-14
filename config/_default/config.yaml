@@ -12,7 +12,7 @@ params:
     head:
       title: site
   breadcrumb:
-    position: none
+    position: after-hero
   projects:
     index:
       layout: grid
