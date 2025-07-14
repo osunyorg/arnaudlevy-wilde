@@ -35,12 +35,17 @@ main
     .taxonomies-container
         display: none
 
+.projects--large
+    .project
+        @include media-breakpoint-up(desktop)
+            justify-content: center
+            margin-bottom: pxToRem(64)
+
 .block-siblings-navigation
     display: none
 
 .breadcrumb
     justify-content: center
-
 footer#document-footer
     .container
         display: block
